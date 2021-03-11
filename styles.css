@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Web Site Navigator Bar*/
+
+.page-nav{
+    width: 100vw;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.link-list{
+    display: flex;
+    
+}
+
+.link-list li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 2rem 1rem;
+}
+
+.link{
+    text-decoration: none;
+    color: #000;
+}
+
+.aplication-icon{
+    margin: 2rem 2rem;
+    width: 1rem;
+}
+
+.log-in{
+    margin: 1.5rem 1rem;
+    background-color: #1b1bf3;
+    padding: 0.7rem 2rem;
+    border: none;
+    border: 0.3rem;
+    color: #ffffffff;
+    font-weight: 600;
+}
+
+
+/*Main Content*/
+
+.main-container{
+    width: 100vw;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.google-logo{
+    width: 30rem;
+    margin-bottom: 2rem;
+}
+
+.search-bar{
+    width: 50rem;
+    height: 3rem;
+    padding: 0 0.5rem;
+    border-radius: 2rem;
+    border: 0.1rem solid #cecece;
+   
+}
+
+.botton-section{
+    display: flex;
+    font-size: 1.6rem;
+
+}
+
+.botton{
+    margin: 3rem 1rem;
+    background-color: #f8f9fa;
+    padding: 1rem 2rem;
+    
+}
+
+.botton a{
+    text-decoration: none;
+    color:#3c4043;
+}
+
+p{
+    font-size: 1.4rem;
+    margin: 1rem 0;
+}
+
+p a{
+    text-decoration: none;
+}
+
+
+/*Footer*/
+
+footer{
+    width: 100vw;
+}
+
+.foot1{
+    background-color: #f2f2f2;
+    padding: 1rem 0;
+    color: #0000008a;
+    border-bottom: #dadce0 solid 0.1rem;
+}
+
+.foot1 p{
+    margin-left: 2rem;
+}
+
+.foot2{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    padding: 1.2rem 0;
+    color: #0000008a;
+    border-bottom: #dadce0 solid 0.1rem;
+    font-size: 1.6rem;
+}
+
+.foot2-1{
+    width: 77%;
+}
+
+.foot2-1 a{
+    margin: 1.5rem 1rem;
+    padding: 1rem 0.5rem;
+    color: #0000008a;
+    text-decoration: none;
+}
+
+.foot2-2{
+    width: 23%;
+    justify-content: space-between;
+}
+
+.foot2-2 a{
+    margin: 1.5rem 1rem;
+    padding: 1rem 0.5rem;
+    color: #0000008a;
+    text-decoration: none;
+}
